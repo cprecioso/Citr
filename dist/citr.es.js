@@ -1,7 +1,3 @@
-'use strict';
-
-Object.defineProperty(exports, '__esModule', { value: true });
-
 /*!
  * BEGIN HEADER
  *
@@ -351,6 +347,4 @@ function makeCitation(citationArray) {
     return `[${returnArray.join('; ')}]`;
 }
 
-exports.makeCitation = makeCitation;
-exports.parseSingle = parseSingle;
-exports.util = util;
+export { makeCitation, parseSingle, util };

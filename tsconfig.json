@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "module": "commonjs",
+    "module": "esnext",
     "moduleResolution": "node",
     "outDir": "./dist",
     "strict": true,
@@ -9,8 +9,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitAny": false,
-    "removeComments": true,
-    "declaration": true
+    "removeComments": true
   },
   "include": ["lib/**/*"]
 }
