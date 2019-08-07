@@ -7,3 +7,6 @@ node_modules
 # Don't commit these pesky yarn logs
 yarn-error.log
 yarn.log
+
+# Don't commit build artifacts
+dist
